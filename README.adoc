@@ -1,3 +1,5 @@
+== SWAMP Plugins Statistics
+Script to email SWAMP plugins statistics
 
 === Requirements
 
@@ -7,11 +9,13 @@
 
 * Virtual Env
 
-===Setup
+=== Setup
 
 * Setup a python virtual environment inside `swamp-plugin-stats`. If you have `python3`, `pip` and `pyvenv` installed, run `pyvenv venv`. This creates environment
 
 * Activate virtual environment by running `source venv/bin/activate`
+
+* In `get_plugins_stats.sh`, change `PYTHONPATH` to point to your `venv/lib/<python-version>/site-packages`
 
 * Install depedencies by running `pip install -r requirements.txt`
 
