@@ -1,0 +1,20 @@
+
+=== Requirements
+
+* Python3
+
+* Pip
+
+* Virtual Env
+
+===Setup
+
+* Setup a python virtual environment inside `swamp-plugin-stats`. If you have `python3`, `pip` and `pyvenv` installed, run `pyvenv venv`. This creates environment
+
+* Activate virtual environment by running `source venv/bin/activate`
+
+* Install depedencies by running `pip install -r requirements.txt`
+
+* Fill in `conf/user.conf`
+
+* run `crontab -e` and add `@daily <yourdir>/swamp-plugin-stats/get_plugins_stats.sh`
